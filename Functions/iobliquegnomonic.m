@@ -6,6 +6,8 @@ function [az_s, el_s] = iobliquegnomonic(x_m,y_m, el_o, az_o, K, limitrange)
 % 'limitrange' = 0 or 1, clips azimuth range to [-pi pi].
 
 % francesca.desimone@epfl.ch
+%        F.De.Simone@cwi.nl
+%
 
 rho = sqrt(x_m^2 + y_m^2);
 mu = atan(rho); % in radians: [-pi/2, pi/2]
