@@ -1,4 +1,12 @@
 function [Clustered_traj] = spherical_clustering(UsersTraj,geod_th,D)
+% clique clustering extended for trajectories
+% presented in "SPHERICAL CLUSTERING OF USERS NAVIGATING 360◦ CONTENT"
+%
+% Author: s.rossi@ucl.ac.uk
+%        F.De.Simone@cwi.nl
+%        pascal.frossard@epfl.ch
+%        l.toni@ucl.ac.uk
+%
 %Given a set of trajectories on the sphere this function clusterise the
 %users based on the presented algorithm
 n_frames = size(UsersTraj(1).data,1);

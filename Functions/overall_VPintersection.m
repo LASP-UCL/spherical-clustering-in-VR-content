@@ -1,4 +1,10 @@
 function [point_intersection,X_vp_1,Y_vp_1,Z_vp_1] = overall_VPintersection(VP_1, VP_2)
+% Given viewport position on tje sphere, this function found point of intersection
+%
+% Author: s.rossi@ucl.ac.uk
+%
+
+
 %%2 vps x time
 X_vp_1 = VP_1(:,1);
 Y_vp_1 = VP_1(:,2);

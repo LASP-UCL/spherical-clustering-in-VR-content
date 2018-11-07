@@ -1,4 +1,9 @@
 function [X_vp, Y_vp, Z_vp] = Proj2Sphere(R_matrix,vp_w,vp_h)
+% Given the rotation matrix associated with user quaternion and 
+% viewport resolution values, this function compute spherical coordinates of viewport
+
+% authors:  s.rossi@ucl.ac.uk, F.De.Simone@cwi.nl
+
 
 %the idea is to project in (az = 0; el = 0) and then rotate the viewport
 el_o = 0;
