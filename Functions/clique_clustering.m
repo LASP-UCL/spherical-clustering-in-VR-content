@@ -1,5 +1,4 @@
 function [set_clusters] = clique_clustering(connectivity_matrix)
-%s.rossi@ucl.ac.uk
 
 %%%Given the connectivity matrix this function find all clustering based on
 %%%maximal cliques
