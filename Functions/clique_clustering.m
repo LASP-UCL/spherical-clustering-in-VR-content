@@ -1,5 +1,13 @@
 function [set_clusters] = clique_clustering(connectivity_matrix)
 
+% presented in "SPHERICAL CLUSTERING OF USERS NAVIGATING 360◦ CONTENT"
+%
+% Author: s.rossi@ucl.ac.uk
+%        F.De.Simone@cwi.nl
+%        pascal.frossard@epfl.ch
+%        l.toni@ucl.ac.uk
+%
+
 %%%Given the connectivity matrix this function find all clustering based on
 %%%maximal cliques
 n_elements = size(connectivity_matrix,1);
