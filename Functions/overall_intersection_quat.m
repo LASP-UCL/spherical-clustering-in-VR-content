@@ -1,4 +1,9 @@
 function [point_intersections] = overall_intersection_quat(Users_cluster,UsersTraj_quat,i_frames)
+% 
+%
+% Author: s.rossi@ucl.ac.uk
+
+%
 %%%This function evaluates the overall intersection in a cluster given the
 n_users = length(Users_cluster);
 %Viewport information for Video in Xavier. and al database
